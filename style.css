@@ -1,0 +1,517 @@
+/* CSS Document */
+*{margin: 0; padding: 0;}
+
+a {
+	list-style-type: none;
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+body {
+	background: #0172b6;
+	background: linear-gradient(to bottom, #0172b6, #c7edff);
+	width: 100%;
+	height: 100%;	
+}
+
+#all {
+	width: 775px;
+	margin: 0 auto;
+}
+
+#allbackground {
+	width: 775px;
+	float: left;
+	background: #ffffff;
+}
+
+#header {
+	width: 775px;
+	height: 175px;
+	background: url(img/headbackg.png) no-repeat;
+	margin: 3px 2px;
+	float: left;
+}
+
+.logo a {
+	background: url(img/logo.png) no-repeat;
+	float: left;
+	width: 390px;
+	height: 90px;
+	margin: 0 0 0 35px;
+}
+
+.logo p {
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 32px;
+	color: #ea8f00;
+	font-weight: bold;
+	text-shadow: white 2px 2px 0, white -2px -2px 0, 
+                 white -2px 2px 0, white 2px -2px 0;
+    float: left;
+    margin: 28px 0 0 138px;
+}
+
+.coltxt {
+	color: #000000;
+}
+
+.lesstxt {
+	font-size: 22px;
+}
+
+.tagline {
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 13px;
+	color: #000000;
+	text-shadow: white 2px 2px 0, white -2px -2px 0, 
+                 white -2px 2px 0, white 2px -2px 0;
+    font-weight: bold;
+    font-style: italic;
+    margin: 0 0 0 140px;
+}
+
+.login {
+	float: right;
+	width: 172px;
+	height: 80px;	
+}
+
+.login h4 {
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 14px;
+	margin: 5px 0 0 13px;
+}
+
+.login input {
+	width: 87px;
+	height: 13px;
+	border: solid 2px #ffcc37;
+	border-radius: 3px;
+	font-family: Tahoma;
+	font-size: 10px;
+	color: #8f8f8f;
+	padding: 0 0 2px 7px;	
+	float: left;
+}
+
+.login a {
+	width: 43px;
+	height: 15px;
+	float: left;
+	border: solid 2px #ffffff;
+	border-radius: 5px 2px;
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 10px;
+	color: #000000;
+	background: #ffd76b;
+	text-align: center;
+	line-height: 1.5;
+}
+
+.logininp {
+	margin: 2px 0 0 0;
+}
+
+.helpbut {
+	margin: 1px 0 0 3px;
+}
+
+.passinp {
+	margin: 5px 0 0 0;
+}
+
+.enterbut {
+	margin: 5px 0 0 3px;
+}
+
+.register{
+	margin: 5px 0 0 19px;
+	float: left;
+}
+
+.register a {
+	background: none;
+	border: none;
+	width: 65px;
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #000000;
+}
+
+.regbut {
+	margin: 0 0 0 16px;
+}
+
+.navig {
+	float: left;
+	width: 760px;
+	height: 70px;
+	margin: 5px 0 0 5px;
+}
+
+.navig li {
+	margin: 0 0 0 1px;
+}
+
+.navig p {
+	font-family: "Trebuchet MS";
+	font-size: 11px;
+	color: #333332;
+	text-align: center;
+	font-weight: bold;
+}
+
+.navig a {
+	opacity: 0.5;
+	float: left;
+}
+
+.navig a:hover{
+	opacity: 1;
+}
+
+.navighome {
+	background: url(img/sprait.png) -7px -2px;
+	width: 60px;
+	height: 50px;	
+}
+
+.navigref {
+	margin: 53px 0 0 0;
+}
+
+.reflection {	
+    -moz-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    -ms-transform: scaleY(-1);
+    transform: scaleY(-1);
+    z-index: 1;
+    opacity: 0.1;
+    margin: -2px 0 0 0;
+}
+
+.navigncou {
+	background: url(img/sprait.png) -70px -4px;
+	width: 70px;
+	height: 50px;
+	margin: 0 0 0 5px;
+}
+
+.expircoup div {
+	width: 95px;
+	float: left;
+}
+
+.expircoup a, .shop a, .shopcateg a, .forum a, .newslet a,
+.sitemap a, .contactus a, .linktous a {
+	width: 65px;
+	height: 50px;
+}
+
+.expircoup a {
+	background: url(img/sprait.png) -137px -4px;
+	margin: 0 0 0 5px;	
+}
+
+.shop div {
+	width: 86px;
+	float: left;
+}
+
+.shop a {
+	background: url(img/sprait.png) -215px -5px;
+	margin: 0 0 0 31px;	
+}
+
+.shopcateg div {
+	width: 96px;
+	float: left;
+}
+
+.shopcateg a {
+	background: url(img/sprait.png) -290px -2px;
+	margin: 0 0 0 22px;	
+}
+
+.forum div {
+	width: 68px;
+	float: left;
+}
+
+.forum a {
+	background: url(img/sprait.png) -367px -2px;
+	margin: 0 0 0 20px;	
+}
+
+.newslet div {
+	width: 68px;
+	float: left;
+}
+
+.newslet a {
+	background: url(img/sprait.png) -442px 8px;
+	margin: 0 0 0 8px;	
+}
+
+.sitemap div {
+	width: 68px;
+	float: left;
+}
+
+.sitemap a {
+	background: url(img/sprait.png) -520px 1px;
+	margin: 0 0 0 6px;	
+}
+
+.contactus div {
+	width: 68px;
+	float: left;
+}
+
+.contactus a {
+	background: url(img/sprait.png) -7px -84px;
+	margin: 0 0 0 6px;	
+}
+
+.linktous div {
+	width: 68px;
+	float: left;
+}
+.linktous a {
+	background: url(img/sprait.png) -93px -80px;
+	margin: 0 0 0 4px;	
+}
+
+#content {
+	float: left;	
+}
+
+.leftpan {
+	margin: 0 0 0 7px;
+	float: left;
+}
+
+.stores {
+	width: 135px;
+	float: left;
+}
+
+.storesback {
+	background: url(img/sprait.png) -175px -96px;
+	width: 39px;
+	height: 30px;
+	margin: -30px 0 0 -6px;
+	float: left;
+	position: relative;
+	z-index: 2;
+}
+
+.stores h3 {
+	font-family: Tahoma;
+	font-size: 11px;
+	width: 115px;
+	border: solid 1px #ffc000;
+	border-radius: 5px;
+	text-align: center;
+	padding: 6px 0 8px 10px;
+	margin: 0 0 0 13px;
+	float: left;
+	position: relative;
+	z-index: 1;
+	background: #ffffff;
+	box-shadow: 0 4px 5px #cdc7b1;
+}
+
+.leftpanlist {
+	width: 135px;
+	border: solid 1px #ffc000;
+	border-radius: 5px;
+	margin: -15px 0 0 -1px;
+	padding: 17px 0 0 0;
+	float: left;
+	background: linear-gradient(to left, #fff1c2, #fff7df);
+}
+
+.space {
+	margin: 12px 0 0 0;
+}
+
+.imgback {
+	background: url(img/sprait.png) -229px -72px;
+	width: 49px;
+	height: 71px;
+	float: right;
+	margin: -66px 0 0 0;
+}
+
+.leftpanlist a {
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #5a5a5a;
+	margin: -5px 0 0 18px;	
+}
+
+.leftpanlist a:hover{
+	text-decoration: underline;
+}
+
+.categories {
+	margin: 6px 0 0 0;
+	float: left;
+	clear: left;
+}
+
+.contentcentre{
+	float: left;
+	width: 470px;
+	margin: 8px 0 0 10px;
+}
+
+.contentcentre h2 {
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #3b3b3b;
+	float: left;
+}
+
+.contentcentre p {
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #3b3b3b;	
+	text-align: justify;
+	line-height: 1.5;
+}
+
+.rightpan {
+	width: 140px;
+	height: 300px;
+	float: left;
+	margin: 0 0 0 12px;
+}
+
+.newest {
+	float: left;
+}
+
+.righpanlist, .righpanlistsearc {
+	width: 135px;
+	border: solid 1px #ffc000;
+	border-radius: 5px;
+	margin: -15px 0 0 -1px;
+	padding: 17px 0 0 0;
+	float: left;
+	background: linear-gradient(to left, #fff1c2, #fff7df)
+}
+
+.righpanlist a {
+	width: 86px;
+	height: 29px;
+	border: solid 1px #ffae00;
+	float: left;
+}
+
+.thecontact, .discont, .overnight, .fossil {
+	margin: 10px 0 0 25px;
+}
+
+.seabear {
+	background: url(img/sprait.png) -298px -82px;
+	margin: 14px 0 0 25px;	
+}
+
+.thecontact {
+	background: url(img/sprait.png) -401px -83px;
+}
+
+.discont {
+	background: url(img/sprait.png) -496px -85px;
+}
+
+.overnight {
+	background: url(img/sprait.png) -18px -154px;
+}
+
+.fossil {
+	background: url(img/sprait.png) -127px -153px;
+}
+
+.lastminute {
+	background: url(img/sprait.png) -234px -153px;
+	margin: 10px 0 20px 25px;
+	z-index: 1;
+	position: relative;
+}
+
+.righpanlistsearc p {
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #000000;
+	width: 120px;
+	line-height: 1.5;
+	margin: 10px 0 0 15px;
+}
+
+.searchrigh {
+	float: left;
+	margin: 0 0 38px 0;
+}
+
+.searchrigh input {
+	width: 73px;
+	height: 15px;
+	border: solid 1px #ffda6b;
+	margin: 9px 0 0 15px;
+	float: left;
+	font-family: Tahoma;
+	font-size: 10px;
+	color: #8f8f8f;
+	padding: 1px 5px 1px 7px;	
+}
+
+.searchrigh a {
+	width: 20px;
+	height: 22px;
+	background: url(img/sprait.png) -341px -153px;
+	margin: -23px 0 0 108px;
+	position: relative;
+	z-index: 1;
+	border: none;
+	float: left;
+}
+
+.search {
+	float: left;
+	margin: 6px 0 0 0;
+}
+
+#footer {
+	background: url(img/footer.png) no-repeat;
+	float: left;
+	width: 776px;
+	height: 76px;
+	margin: 11px 0 4px 0;
+}
+
+.footernavig {
+	margin: 50px 0 0 105px;
+	width: 620px;
+}
+
+.footernavig a {
+	font-family: "Trebuchet MS";
+	font-size: 11px;
+	float: left;
+	color: #000000;
+	font-weight: bold;
+	margin: 0 16px 0 0;
+}
+
+.footernavig a:hover {
+	text-decoration: underline;
+}
+
